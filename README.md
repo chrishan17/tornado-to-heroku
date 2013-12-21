@@ -2,13 +2,15 @@
 <a href="https://www.heroku.com" target="blank"><img src="https://d1lpkba4w1baqt.cloudfront.net/heroku-logo-dark-300x100.png" alt ="Heroku" width='250' height='75'></a>
 ## 1. 使用前提：
 #### 必须翻墙!  
-- *Heroku*在翻墙后才能使用。
-#### 安装***[git][1]***
+- *Heroku*在翻墙后才能使用。 
+
+#### 安装***[git][1]***  
 #### 安装***[virtualenv][2]***  
 - 创建独立的Python环境，多个Python应用互不影响。  
 - 你可以先下载[Pip][3]，Python的软件安装管理包，然后`pip install virtualenv`。
+
 #### 需要一个***Heroku account:***  
-在[Heroku官网][4]注册账号。 
+- 在[Heroku官网][4]注册账号。 
 
 ## 2. 下载***Heroku Toolbelt***并登录 **：**
 * 在[Toolbelt][5]下载对应系统的Heroku Toolbelt，以便你在终端里使用heroku命令行。
@@ -96,7 +98,7 @@
 #### 6.部署***app***至***Heroku***
   * 创建app在Heroku储存的空间  
   `$ heroku create appName`
-  * 将***git***中的***app***推向***Heroku***  
+  * 将git中的app推向Heroku  
   `$ git push heroku master`
 
 #### 7.在浏览器中打开该***app***  
